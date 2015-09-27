@@ -1,4 +1,4 @@
-# portfolio-page
+# Portfolio 
 
 A small portfolio created as practice after taking Udacity's HTML & CSS course.
 
