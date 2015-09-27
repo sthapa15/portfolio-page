@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Suki Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<figure class="col-md-6">
+					<!--replace placeholder image-->
+					<img class="title-logo img-responsive img-circle" src="images/bio-photo.JPG" width="100" height="100" alt="Logo">
+				</figure>
+				<!-- TODO: Link other pages to the button -->
+				<header class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Sukriti Thapa</h1>
+					<h4>Front End Web Developer</h4>
+					<!-- unresponsive buttons -->
+					<nav>
+						<button type="button" class="btn btn-default">About Me</button>
+						<button type="button" class="btn btn-default">Projects</button>
+						<button type="button" class="btn btn-default">Resume</button>
+					</nav>
+				</header>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<figure class="col-md-12">
+					<!--TODO: replace placeholder image-->
+					<img class="img-responsive" src="images/mountain.jpg" alt="Image">
+				</figure>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<!--TODO: add actual projects to link with description-->
+			<div class="row text-center">
+				<section class="col-md-4">
+					<img class="img-responsive" src="images/babygoat.jpg" data-toggle="modal" data-target="#project1" alt="FirstApp">
+					<h3 class="text-uppercase" class="text-muted">First App</h3>
+					<p><a href="http://github.com" >Go to Project</a></p>
+				</section>
+				<section class="col-md-4">
+					<img class="img-responsive" src="images/babygoat6.jpg" data-toggle="modal" data-target="#project2" alt="SecondApp">
+					<h3 class="text-uppercase">Second App</h3>
+					<p><a href="http://github.com">Go to Project</a></p>
+				</section>
+				<section class="col-md-4">
+					<img class="img-responsive" src="images/babygoat2.jpg" data-toggle="modal" data-target="#project3" alt="ThirdApp">
+					<h3 class="text-uppercase">Third App</h3>
+					<p><a href="http://github.com">Go to Project</a></p>
+				</section>
+			</div>
+		</div>
+		<!-- Modal 1 - Project 1-->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="firstAppModal" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="firstAppModal">First App</h4>
+		      </div>
+		      <div class="modal-body text-center text-descriptor">
+		        <img class="img-responsive center-block" src="images/babygoat.jpg" alt="baby goat">
+		        This was my favorite project. I learned alot about html/css through this project.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--Modal2- Project 2-->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="secondAppModal" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="secondAppModal">Second App</h4>
+		      </div>
+		      <div class="modal-body text-center text-descriptor">
+		        <img class="img-responsive center-block" src="images/babygoat6.jpg" alt="baby goat 2">
+		        This was my top secret project in examining baby goat behavior. I learned alot.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--Modal3-->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="thirdAppModal" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="thirdAppModal">Third App</h4>
+		      </div>
+		      <div class="modal-body text-center text-descriptor">
+		        <img class="img-responsive center-block"  src="images/babygoat2.jpg" alt="baby goat 3">
+		        This was my second favorite goat. Secretly he wanted to take over the world because he was born to gorillas.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>

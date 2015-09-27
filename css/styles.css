@@ -1,0 +1,28 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted{
+	color: #bcbbb0;
+}
+
+/*class for color of project description in modal*/
+.text-descriptor{
+	color: #080808;
+	
+}
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
